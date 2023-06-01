@@ -3,7 +3,7 @@ st.title('Flight Fare Prediction')
 
 import pickle
 import pandas as pd
-model = pickle.load(open('reg_rfmodel.sav.cpgz', 'rb'))
+model = pickle.load(open('reg_rfmodel.sav', 'rb'))
 
 new_data = pd.DataFrame({
     'Source':[Mumbai],
